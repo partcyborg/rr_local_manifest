@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remove-project name="ResurrectionRemix/android_build"/>
+  <remove-project name="ResurrectionRemix/device_rr_sepolicy"/>
+  <remove-project name="ResurrectionRemix/android_frameworks_base"/>
+  <remove-project name="ResurrectionRemix/android_vendor_resurrection"/>
+  <remove-project name="ResurrectionRemix/android_vendor_resurrection"/>
+  <remove-project name="LineageOs/hardware_qcom_media"/>
+
+  <project name="partcyborg/android_build" path="build/make" remote="github" revision="op7pro"/>
+  <project name="partcyborg/android_frameworks_base" path="frameworks/base" remote="rr-pie-fpod" revision="op7pro"/>
+  <project name="partcyborg/android_vendor_resurrection" path="vendor/rr" remote="github" revision="op7pro"/>
+  <project name="partcyborg/android_hardware_qcom_media" path="hardware/qcom/media-caf/sm8150" remote="github" revision="op7pro"/>
+  <project name="partcyborg/android_device_oneplus_guacamole" path="device/oneplus/guacamole" remote="github" revision="op7pro" />
+  <project name="partcyborg/android_device_oneplus_sm8150-common" path="device/oneplus/sm8150-common" remote="github" revision="lineage-16.0" />
+
+
+  <project name="SKULSHADY/android_device_oneplus_common" path="device/oneplus/common" remote="github" revision="pie" />
+  <project name="LineageOS/android_device_oppo_common" path="device/oppo/common" remote="github" revision="lineage-16.0" />
+  <project name="PeterCxy/android_kernel_oneplus_sm8150" path="kernel/oneplus/sm8150" remote="github" revision="lineage-16.0-staging" />
+  <project name="PeterCxy/android_vendor_oneplus_sm8150-common" path="vendor/oneplus/sm8150-common" remote="github" revision="lineage-16.0" />
+  <project path="hardware/lineage/interfaces" name="PeterCxy/android_hardware_lineage_interfaces" remote="github" revision="lineage-16.0"/>
+</manifest>
